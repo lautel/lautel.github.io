@@ -4,9 +4,8 @@ permalink:           pretty
 # Setup
 title:               Scientia potentia est
 tagline:             Notebook where I get my work squared away
-url:                 http://www.lautelblog.com
 paginate:            1
-baseurl:             ""
+baseurl:             "/blog"
 
 # Assets
 #
