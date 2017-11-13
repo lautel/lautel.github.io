@@ -5,7 +5,7 @@ permalink:           pretty
 title:               Scientia potentia est
 tagline:             Notebook where I get my work squared away
 paginate:            1
-baseurl:             "/blog"
+baseurl:             "/blog/"
 
 # Assets
 #
@@ -26,7 +26,7 @@ github:
 
 # This is the list of pages to include in the header of the website.
 pages_list:
-  About: "/about/"
+  About: "/blog/about/"
   Archive: "/blog/archive/"
   Feed: "/blog/atom.xml"
   
