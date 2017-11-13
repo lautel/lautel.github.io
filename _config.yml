@@ -25,11 +25,10 @@ github:
   repo:              https://github.com/poole/poole
 
 # This is the list of pages to include in the header of the website.
-nav:
-  main:
-    About: {% include about.html %}
-    Archive: "{{ site.baseurl }}/archive"
-    Feed: "{{ site.baseurl }}atom.xml"
+pages_list:
+  About: {% include about.html %}
+  Archive: "{{ site.baseurl }}/archive"
+  Feed: "{{ site.baseurl }}atom.xml"
   
 
 # Gems
