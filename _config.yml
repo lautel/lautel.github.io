@@ -28,8 +28,8 @@ github:
 nav:
   main:
     About: {% include about.html %}
-    Writing: "/archive"
-    Feed: "atom.xml"
+    Archive: "{{ site.baseurl }}/archive"
+    Feed: "{{ site.baseurl }}atom.xml"
   
 
 # Gems
