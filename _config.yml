@@ -27,8 +27,8 @@ github:
 # This is the list of pages to include in the header of the website.
 pages_list:       
   About: {{ site.baseurl }}{{about.md}}
-  Archive: '/archive/'
-  Feed: '/atom.xml'
+  Archive: "/archive"
+  Feed: "atom.xml"
 
 # Gems
 gems:
