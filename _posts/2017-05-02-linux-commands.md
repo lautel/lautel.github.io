@@ -48,7 +48,7 @@ In order to insert a line *at the end* of a document, switch to `echo` command.
 > $ awk -F, '{print $3}' example.txt
 
 *Example:* save into a new file the content of example.txt adding an asterisk at the beginnig of each line
-> $ cat example.txt \| || awk '{print "*",$0}' > output.txt
+> $ cat example.txt \| awk '{print "*",$0}' > output.txt
 
 
 ### Resources
