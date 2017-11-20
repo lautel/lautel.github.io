@@ -42,6 +42,9 @@ In order to insert a line *at the end* of a document, switch to `echo` command.
 *Example:* delete all lines that contain the string 'phone' 
 > $ sed -i '/phone/d' example.txt <br /> *d* at the end of the regular expression force to delete all lines matching the pattern and not only the first line.
 
+*Example:* print lines 255 to 260 from example.txt
+> $ sed -n 255,260p example.txt 
+
 - `awk:` same as its partner *sed*, *awk* is a data file **processor**. However, it can also be a programming language itself and solve more complex tasks when writing scripts. Run a simple *awk* from the command line is also possible with a simple syntax. 
 
 *Example:* print the third column of the file example.txt if the column separator is a comma
