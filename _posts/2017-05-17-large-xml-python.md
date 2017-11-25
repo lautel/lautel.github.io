@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Parsing large XML files in Python
+categories: Work
 ---
 
 *lxml* is an easy-to-use library for processing XML and HTML in Python. It is built on top of two C libraries (*libxml2* and *libxslt*) and proves high-performance characteristics. However, when dealing with very large files it eventually consumes all my system's available memory and then the process is killed. This is due to the parse method which reads the entire document and builds an in-memory tree, storing each nodes' context. 
@@ -101,10 +102,10 @@ if __name__ == "__main__":
 ```
 
 ### References
-https://www.ibm.com/developerworks/xml/library/x-hiperfparse
+[Liza Day article at IBM DeveloperWorks](https://www.ibm.com/developerworks/xml/library/x-hiperfparse)
 
-http://lxml.de/parsing.html#modifying-the-tree
+[lxml docs](http://lxml.de/parsing.html#modifying-the-tree)
 
-https://stackoverflow.com/questions/12160418/why-is-lxml-etree-iterparse-eating-up-all-my-memory
+[This issue on stackoverflow](https://stackoverflow.com/questions/12160418/why-is-lxml-etree-iterparse-eating-up-all-my-memory)
 
 [^fn-sample_footnote]: Find [here](https://talp-upc.gitbooks.io/freeling-user-manual/content/index.html) the Freeling User Manual.

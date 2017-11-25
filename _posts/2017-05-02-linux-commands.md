@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Useful Linux Commands and Examples
+categories: Work
 ---
 
 First post! I start posting a list of handy commands when dealing with files in Linux/Unix systems. 
