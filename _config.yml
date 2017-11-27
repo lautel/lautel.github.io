@@ -7,6 +7,9 @@ tagline:             Notebook where I get my work squared away
 paginate:            1
 baseurl:             "/blog/"
 
+# Markdown
+markdown: kramdown
+
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
