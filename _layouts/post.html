@@ -2,18 +2,14 @@
 layout: default
 ---
 
-
 <article class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
   {{ content }}
 </article>
 
-
 <div class="relatedPosts">
-
 <h4>Hey! You may also enjoy this:</h4> 
-  
 {% assign maxRelated = 2 %}
 {% assign minCommonTags =  1 %}
 {% assign maxRelatedCounter = 0 %}
@@ -42,7 +38,6 @@ layout: default
         {% break %}
       {% endif %}
     {% endif %}
-
   {% endfor %}
-
 </div>
+
