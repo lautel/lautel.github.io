@@ -26,7 +26,7 @@ In contrast to supervised learning, unsupervised learning is another type of mac
 
 In order to understand how neurons and NNs work, it is worth to introduce first the baseline unit for modern research: the perceptron, depicted in the *Figure* above with several inputs **{x1, x2, ..., xN}** ∈ R. Frank Rosenblatt [[2]]({{ site.baseurl }}/public/assets/Rosenblatt-perceptron-1958.pdf) proposed a simple rule to compute the output: the neuron’s output, 0 or 1, is determined whether the weighted sum is less than or greater than some threshold value. Just like the weights, the threshold is a real number which is a parameter of the neuron. Mathematically, see *Equation \eqref{eq:one}*:
 
-
+$$
 \begin{equation}
   output = \left\{ \begin{array}{cccc} 
   0 & if & \sum_{j}{w_j x_j} & \leq\mbox{threshold} \\
@@ -34,7 +34,7 @@ In order to understand how neurons and NNs work, it is worth to introduce first 
   \end{array}\right.
   \tag{2.1} \label{eq:one}
 \end{equation}
-
+$$
 
 where it is easy to infer that by varying the weights and the threshold we can get different models of decision-making. However, *Equation \eqref{eq:one}* can be simplified making two notational changes. First, both inputs and weights can be seen as vectors **$$[x_1, x_{2}, ..., x_{N}]^T$$** and **w** respectively, which allows us to rewrite the summation as a dot product. The second change is to move the threshold to the other side of the inequality, and replace it by what is known as the perceptron's bias, $b\equiv-threshold$. The bias can be seen as a measure of how easy is to get the perceptron to output a 1 [[1]](http://www.neuralnetworksanddeeplearning.com). Thus, the perceptron rule can be rewritten into *Equation \eqref{eq:dos}*:
 
