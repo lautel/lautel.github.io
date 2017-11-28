@@ -31,6 +31,9 @@ I work on a CentOS 6 Linux version 2.6.32
 
 - `sed:` is a non-interactive stream **editor**. It is typically used to filter text, extract or subtitute multiple occurrences of a string within a file.
 
+*Example:* replace the the word "house" by "home" every time it appears in the input file.
+> $ sed 's/house/home/g' <example.txt >example.out.txt
+
 *Example:* delete the second line of the document
 > $ sed -i '2d' example.txt <br /> edits the file in-place with argument [-i]. Otherwise it displays the modified file in the standard output. 
 
