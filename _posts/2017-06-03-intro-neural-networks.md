@@ -36,7 +36,7 @@ $$
 \end{equation}
 $$
 
-where it is easy to infer that by varying the weights and the threshold we can get different models of decision-making. However, *Equation \eqref{eq:one}* can be simplified making two notational changes. First, both inputs and weights can be seen as vectors **$$[x_1, x_{2}, ..., x_{N}]^T$$** and **w** respectively, which allows us to rewrite the summation as a dot product. The second change is to move the threshold to the other side of the inequality, and replace it by what is known as the perceptron's bias, $b\equiv-threshold$. The bias can be seen as a measure of how easy is to get the perceptron to output a 1 [[1]](http://www.neuralnetworksanddeeplearning.com). Thus, the perceptron rule can be rewritten into *Equation \eqref{eq:dos}*:
+where it is easy to infer that by varying the weights and the threshold we can get different models of decision-making. However, *Equation \eqref{eq:one}* can be simplified making two notational changes. First, both inputs and weights can be seen as vectors **$$[x_1, x_{2}, ..., x_{N}]^T$$** and **w** respectively, which allows us to rewrite the summation as a dot product. The second change is to move the threshold to the other side of the inequality, and replace it by what is known as the perceptron's bias, $$b\equiv-threshold$$. The bias can be seen as a measure of how easy is to get the perceptron to output a 1 [[1]](http://www.neuralnetworksanddeeplearning.com). Thus, the perceptron rule can be rewritten into *Equation \eqref{eq:dos}*:
 
 $$
 \begin{equation}
