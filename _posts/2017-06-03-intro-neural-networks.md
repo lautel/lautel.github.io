@@ -22,7 +22,7 @@ In contrast to supervised learning, unsupervised learning is another type of mac
 <br />
 ## 2. Perceptron
 
-![image]({{ site.baseurl }}/public/photos/perceptron.pdf){: .center-image }
+![image]({{ site.baseurl }}/public/photos/perceptron.jpg){: .center-image }
 
 In order to understand how neurons and NNs work, it is worth to introduce first the baseline unit for modern research: the perceptron, depicted in the *Figure* above with several inputs **{x1, x2, ..., xN}** ∈ R. Frank Rosenblatt [[2]]({{ site.baseurl }}/public/assets/Rosenblatt-perceptron-1958.pdf) proposed a simple rule to compute the output: the neuron’s output, 0 or 1, is determined whether the weighted sum is less than or greater than some threshold value. Just like the weights, the threshold is a real number which is a parameter of the neuron. Mathematically, see *Equation \eqref{eq:one}*:
 
@@ -87,7 +87,7 @@ tanh(x) = \frac{e^{x}-e^{-x}}{e^{x}+e^{-x}}.
 $$
 
 
-![image]({{ site.baseurl }}/public/photos/graphs.pdf){: .center-image }
+![image]({{ site.baseurl }}/public/photos/graphs.jpg){: .center-image }
 
 *Figure: Visual representation of sigmoid (blue), rectified linear unit (ReLU, red) and hyperbolic tangent (tanh, green) activation functions. It can be seen that sigmoid and tanh are both bounded functions.*
 
