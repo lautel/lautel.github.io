@@ -15,8 +15,10 @@ I am a curious person and I do enjoy traveling the world. All these experiences 
 
 ### Contact
 
-- <a style="color:blue;" href="https://www.linkedin.com/in/laura-cabello-piqueras-167352104/">LinkedIn</a>
-- <a style="color:blue;" href="{{ site.baseurl }}/public/pdf/CV.PDF">Link to my brief CV</a>
+![image]({{ site.baseurl }}/public/photos/git-logo.png) [GitHub](https://github.com/lautel)
 
+![image]({{ site.baseurl }}/public/photos/link-logo.png) [LinkedIn](https://www.linkedin.com/in/laura-cabello-piqueras/)
+
+![image]({{ site.baseurl }}/public/photos/cv-logo.png) [Link to my brief CV]({{ site.baseurl }}/public/assets/lcpiqueras-en.pdf)
 
 
