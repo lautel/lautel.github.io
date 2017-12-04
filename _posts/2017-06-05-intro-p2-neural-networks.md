@@ -64,11 +64,11 @@ We choose the class with the highest probability as the solution and then compar
 
 $$
 \begin{equation}
-  \label{eq:cross_entropy}\tag{1.5}
-  \left\{ \begin{array}{cc} 
-    E_{CE}^{1}= -(\log(0.4)+\log(0.4)+\log(0.1))/3 = 1.38, \\
-    E_{CE}^{2}= -(\log(0.7)+\log(0.7)+\log(0.3))/3 = 0.64,
+  \left\{ \begin{array}{ccc} 
+  & & E_{CE}^{1}= -(\log(0.4)+\log(0.4)+\log(0.1))/3 = 1.38, \\
+  & &  E_{CE}^{2}= -(\log(0.7)+\log(0.7)+\log(0.3))/3 = 0.64,          
   \end{array}\right.
+  \tag{2.1} \label{eq:one}
 \end{equation}
 $$
 
