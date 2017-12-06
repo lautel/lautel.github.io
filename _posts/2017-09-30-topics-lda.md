@@ -163,6 +163,14 @@ We can also print distribution of words in each topic selecting a row from *topi
 
 *Figure 4.2. Distribution of the first 200 words in topic 41, with $$\alpha=0.5$$*
 
+#### Visualization
+
+Alright, we've got to know the basis of LDA. In order to go deeper in our topic' models we can count on visualization tools that make this task much nicer. [**pyLDAvis**](https://github.com/bmabey/pyLDAvis) is an easy-to-use Python library for interactive topic model visualization. By default the topics are projected to the 2D plane, as we can see in the following display. *Figure 4.3.* is just an screenshot to show how it looks when we have only 2 different topics (in this case I mixed up forecast news and children's tales). As depicted, the topic selected contains all relevant terms related to weather. 
+
+![image]({{ site.baseurl }}/public/photos/lda_vis.png){: .center-image } 
+
+*Figure 4.3. Topic visualization rendered by pyLDAvis. The topic selected (red) is mainly build up by weather terms since it is present in documents about forecast news. On the other hand, topic 1 has more relevant terms within tales' vocabulary.*
+
 
 <div class="message">
   And now... How can we use all of this? Read the post <a href="/blog/neuralnets/2017/06/03/summary-lda/">Text summarization with LDA</a>
