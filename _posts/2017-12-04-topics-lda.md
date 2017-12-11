@@ -173,7 +173,7 @@ Alright, we've got to know the basis of LDA. In order to go deeper in our topic'
 
 
 <div class="message">
-  And now... How can we use all of this? Read the post <a href="/blog/neuralnets/2017/12/06/summary-lda/">Text summarization with LDA</a>
+  And now... How can we use all of this? Read the post <a href="/blog/neuralnets/2017/12/06/keywords-lda/">Keywords extraction with LDA</a> and <a href="/blog/neuralnets/2017/12/07/summary-lda/">Text summarization with LDA</a>
 </div>
 
 
