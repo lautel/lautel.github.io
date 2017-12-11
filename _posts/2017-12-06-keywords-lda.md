@@ -120,6 +120,6 @@ outputfile.close()
 The application of keyword extraction could vary from simply getting automatic tags from a text, to classify documents or even help in making a coherent summary of the text. A possible handicap of this method is that keywords must be written in the document, so if an article is talking about holidays in Bali but it doesn't mention 'Indonesia', it can't be a salected keyword even though it would fit well. A step forward would be to study the behaviour of this trained LDA model with texts outside the corpus.
 
 <div class="message">
-  For further information about the application of this algorithm, read the post <a href="/blog/work/2017/12/07/summary-lda/">Text summarization with LDA</a>. See also the implication of keywords in <a href="/blog/work/2017/12/10/doc2vec/"> A</a>
+  For further information about the application of this algorithm, read the post <a href="/blog/work/2017/12/07/summary-lda/">Text summarization with LDA</a>. See also the implication of keywords in doc2vec [UNDER CONSTRUCTION].
 </div>
 
