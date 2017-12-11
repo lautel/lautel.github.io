@@ -6,7 +6,7 @@ category: Work
 
 ## 1. Background 
 
-After we've done a practical overview of Latent Dirichlet Allocation (LDA) in the [previous post](/blog/neuralnets/2017/12/04/topics-lda/), we can state that the basic idea is that documents are represented as mixtures over latent topics, where each topic is characterized by a distribution over words in vocabulary. Topic model is inherent to extract representative content from documents, and from there, computing automatic summarization. 
+After we've done a practical overview of Latent Dirichlet Allocation (LDA) in the [previous post](/blog/work/2017/12/04/topics-lda/), we can state that the basic idea is that documents are represented as mixtures over latent topics, where each topic is characterized by a distribution over words in vocabulary. Topic model is inherent to extract representative content from documents, and from there, computing automatic summarization. 
 
 Let's expose here how to extract **keywords** from each document according to its composition of topics (or topic). In order to make it easier to understand, here it's a snippet of the output file that we are looking for (spanish articles): 
 
@@ -41,7 +41,7 @@ from gensim.utils import tokenize
 
 #### Define and train LDA model (same code than in the previous post)
 
-Assuming we already have our LDA model trained in a large corpus of documents [(here)](/blog/neuralnets/2017/12/04/topics-lda/), we count on the following information:
+Assuming we already have our LDA model trained in a large corpus of documents [(here)](/blog/work/2017/12/04/topics-lda/), we count on the following information:
 
 * $$\theta$$: topic-document matrix, named *topic_doc_matrix* in code. 
 	* Number of relevant topics per document (depends on alpha), *topic_x_doc* in code. 
@@ -120,6 +120,6 @@ outputfile.close()
 The application of keyword extraction could vary from simply getting automatic tags from a text, to classify documents or even help in making a coherent summary of the text. A possible handicap of this method is that keywords must be written in the document, so if an article is talking about holidays in Bali but it doesn't mention 'Indonesia', it can't be a salected keyword even though it would fit well. A step forward would be to study the behaviour of this trained LDA model with texts outside the corpus.
 
 <div class="message">
-  For further information about the application of this algorithm, read the post <a href="/blog/neuralnets/2017/12/07/summary-lda/">Text summarization with LDA</a>. See also the implication of keywords in <a href="/blog/neuralnets/2017/12/10/doc2vec/"> A</a>
+  For further information about the application of this algorithm, read the post <a href="/blog/work/2017/12/07/summary-lda/">Text summarization with LDA</a>. See also the implication of keywords in <a href="/blog/work/2017/12/10/doc2vec/"> A</a>
 </div>
 
