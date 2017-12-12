@@ -6,7 +6,9 @@ category: Work
 
 ## 1. Background 
 
-After we've done a practical overview of Latent Dirichlet Allocation (LDA) in the [previous post](/blog/work/2017/12/04/topics-lda/), we can state that the basic idea is that documents are represented as mixtures over latent topics, where each topic is characterized by a distribution over words in vocabulary. Topic model is inherent to extract representative content from documents, although results strongly depend on the value given to hyperparameters in Dirichlet distribution. Serve as a brief reminder, $$\alpha$$ controls the mean shape and sparsity of topics within a document (sparsity of $$\theta_{d}$$). $$\eta$$ refers to words distribution. With a high value of $$\eta$$, a topic is likely to contain a mixture of most of the words and no a specific set of few words. 
+After we've done a practical overview of Latent Dirichlet Allocation (LDA) in the [previous post](/blog/work/2017/12/04/topics-lda/), we can state that the basic idea is that documents are represented as mixtures over latent topics, where each topic is characterized by a distribution over words in vocabulary. 
+
+Topic model is inherent to extract representative content from documents, although results strongly depend on the value given to hyperparameters in Dirichlet distribution. Serve as a brief reminder, $$\alpha$$ controls the mean shape and sparsity of topics within a document (sparsity of $$\theta_{d}$$). $$\eta$$ refers to words distribution. With a high value of $$\eta$$, a topic is likely to contain a mixture of most of the words and no a specific set of few words. 
 
 Let's expose here how to extract **keywords** from each document according to its composition of topics (or topic). In order to make it easier to understand, here it's a snippet of the output file that we are looking for (spanish articles): 
 
