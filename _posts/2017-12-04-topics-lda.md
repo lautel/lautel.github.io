@@ -51,7 +51,7 @@ Goal: from a collection of documents, infer:
 
 * $$\beta$$ comes from a Dirichlet distribution. 
 
-* $$\alpha$$ and $$\eta$$ are Dirichlet parameters: $$\alpha$$ controls the mean shape and sparsity of topics within a document, i.e., $$\theta_{d}$$. With a high value of $$\eta$$, a topic is likely to contain a mixture of most of the words and no a specific set of few words. 
+* $$\alpha$$ and $$\eta$$ are Dirichlet parameters: $$\alpha$$ controls the mean shape and sparsity of topics within a document (sparsity of $$\theta_{d}$$). $$\eta$$ refers to words distribution. With a high value of $$\eta$$, a topic is likely to contain a mixture of most of the words and no a specific set of few words. 
 
 
 ### 2. Dirichlet distribution
