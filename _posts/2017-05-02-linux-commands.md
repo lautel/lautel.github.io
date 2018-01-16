@@ -10,6 +10,9 @@ I work on a CentOS 6 Linux version 2.6.32
 - `file -bi:` get FILE's character **encoding** (or charset).
 > $ file -bi example.txt
 
+- `iconv:` **converts** text from one encoding to another. 
+> iconv -f iso-8859-1 -t utf-8 <input-text-latin1.txt >output-text-utf8.txt
+
 - `du:` reports the amount of **disk space** used by the specified files and for each subdirectory (of directory arguments). Option [-h] needed to print sizes in human readable format. If option [--max-depth] is set to 1, it prints the total size of each folder in the directory without unfold all folders into subfolders. If it is set to 0 it displays a summary for each argument (or for the current directory). 
 > $ du -h --max-depth=0 
 
