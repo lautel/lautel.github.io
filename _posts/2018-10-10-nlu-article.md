@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Paper: Text-to-Pictogram summarization
+title: [Paper] Text-to-Pictogram summarization
 category: Work
 ---
 
