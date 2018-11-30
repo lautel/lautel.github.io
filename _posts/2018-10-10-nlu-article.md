@@ -11,9 +11,8 @@ Many people suffer from **language disorders** that affect their communicative c
 ![image]({{ site.baseurl }}/public/photos/header_picto.png){: .center-image } 
 
 <div class="message">
-  Augmentative... WHAT?
-  <br>Augmentative and Alternative Communication (AAC) is a form of expression different from regular spoken language, which 'add-on' or replace speech when there are difficulties in communication. 
-
+  <b>Augmentative... WHAT?</b>
+  <br><br>Augmentative and Alternative Communication (AAC) is a form of expression different from regular spoken language, which 'add-on' or replace speech when there are difficulties in communication. 
   <br>AAC includes simple systems such as pictures, gestures and pointing, as well as more complex techniques involving powerful computer technology. 
 </div>
 
