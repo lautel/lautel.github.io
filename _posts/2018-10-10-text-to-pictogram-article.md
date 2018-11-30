@@ -4,7 +4,7 @@ title: [Paper] Text-to-Pictogram summarization
 category: Work
 ---
 
-## Introduction 
+## Introduction 
 
 Many people suffer from **language disorders** that affect their communicative capabilities. Augmentative and alternative communication devices assist learning process through graphical representation of common words. In our paper [Text-to-Pictogram Summarization for Augmentative and Alternative Communication](http://dx.doi.org/10.26342/2018-61-1) published at [SEPLN](http://www.sepln.org), we present a complete text-to-pictogram system able to simplify complex texts and ease its comprehension with pictograms.
 
