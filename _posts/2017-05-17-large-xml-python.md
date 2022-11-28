@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Parsing large XML files in Python
-categories: Work
+category: Unizar
 ---
 
 *lxml* is an easy-to-use library for processing XML and HTML in Python. It is built on top of two C libraries (*libxml2* and *libxslt*) and proves high-performance characteristics. However, when dealing with very large files it eventually consumes all my system's available memory and then the process is killed. This is due to the parse method which reads the entire document and builds an in-memory tree, storing each nodes' context. 

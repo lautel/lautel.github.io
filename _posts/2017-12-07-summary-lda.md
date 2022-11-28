@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Text summarization with LDA
-category: Work
+category: Unizar
 ---
 
 There are different approaches to automatic text summarization based on Latent Dirichlet Allocation (LDA) topic model [1,2,3]. The one proposed here, it's the most straight forward method. 

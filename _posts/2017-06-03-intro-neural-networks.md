@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction to Neural Networks
-categories: NeuralNets
+category: Unizar
 ---
 
 

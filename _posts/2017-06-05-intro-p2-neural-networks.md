@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction II to Neural Networks
-categories: NeuralNets
+category: Unizar
 ---
 
 Previous: Introduction I to Neural Networks [here](/blog/neuralnets/2017/06/03/intro-neural-networks/)

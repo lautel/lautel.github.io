@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Keywords extraction with LDA
-category: Work
+category: Unizar
 ---
 
 ## 1. Background 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Audio Generation
-categories: NeuralNets
+category: Unizar
 ---
 
 Algorithmic music generation is a difficult task that has been actively explored in earlier decades. Many common methods for algorithmic music generation consist of constructing carefully engineered musical features and rely on simple generation schemes, such as hidden Markov models (HMMs) [1]. It captures the musical style of the training data as mathematical models. Following these approaches the resulting pieces usually consist of repetitive musical sequences with a lack thematic structure.

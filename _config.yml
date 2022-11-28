@@ -2,10 +2,10 @@
 permalink:           pretty 
 
 # Setup
-title:               Scientia potentia est
+title:               Laura Cabello
 tagline:             Notebook where I get my work squared away
 paginate:            1
-baseurl:             "/blog/"
+baseurl:             "/blog/about/"
 
 # Markdown
 markdown: kramdown
@@ -19,7 +19,7 @@ sass:
 
 # About/contact
 author:
-  name:              Laura Cabello 
+  name:              Laura Cabello Piqueras
   url:               https://www.linkedin.com/in/laura-cabello-piqueras-167352104
 
 # Custom vars
@@ -30,8 +30,9 @@ github:
 # This is the list of pages to include in the header of the website.
 pages_list:
   About: "/blog/about/"
-  Archive: "/blog/archive/"  
-  NeuralNets: "/blog/neuralnets/"
+  Resume: "/blog/resume/"
+  Publications: "/blog/publications/"
+  Archive: "/blog/archive/"
 
 # Gems
 gems:

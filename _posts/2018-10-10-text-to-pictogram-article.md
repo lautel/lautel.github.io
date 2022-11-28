@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Text-to-Pictogram summarization [paper presentation] 
-category: Work
+category: Unizar
 ---
 
 ## Introduction 

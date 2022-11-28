@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Understanding LDA for topic modeling 
-category: Work
+category: Unizar
 ---
 
 Topic modeling provides methods for automatically organizing, searching or even understanding a vast amount of electronic data archives. Latent Dirichlet Allocation (LDA) is one simple method of topic modeling. Although it can be applied to data from different domains such as images, I will focus here on text collections (corpora). But, **what is exactly LDA?** The intuition behind LDA is that documents exhibit multiple topics. Thus, LDA is a way of automatically uncovering the hidden thematic structure in a document collection, which allows us to organize the collection according to the discovered themes (or topics). In fact, LDA is a generative probabilistic model of a corpus: each document is considered to have a set of various topics that are assigned to it via LDA. 

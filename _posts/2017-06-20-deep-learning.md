@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deep Learning
-categories: NeuralNets
+category: Unizar
 ---
 
 Deep neural networks (DNNs) have shown significant improvements in several application domains including computer vision and speech recognition [1]. In particular, deep CNNs are one of the most widely used types of deep networks and they have demonstrated state-of-the-art results in object recognition and detection [2,3]. 
