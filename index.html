@@ -1,33 +1,31 @@
 ---
 layout: default
-title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+<article class="page">
+<link rel="stylesheet" href="style.css">
 
-    {{ post.content }}
-  </article>
-  {% endfor %}
-</div>
+  <h1 class="page-title">About me</h1>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+
+  <img src="{{ site.baseurl }}/public/photos/abme.jpg" alt="Avatar">
+
+
+
+  <p>Hey! I am Laura Cabello, a second-year PhD student at <a href="https://coastalcph.github.io/">CoAStaL</a>, the Natural Language Processing group led by <a href="https://anderssoegaard.github.io/">Anders Søgaard</a> at the University of Copenhagen.</p>
+
+<p>I am particularly interested in the social implications of large scale language models. NLP is rapidly expanding across industries and it is our responsibility to design safe and equitable models to deploy them in practice. Currently, I am digging deeper into analyzing social bias and fairness in language models.</p>
+
+<p>Whenever I am not in research mode, you can find me bouldering, trying out innovative recipes (shout out to <a href="https://gipsychef.es/category/bestial/">Gipsy Chef</a>) or enjoying a good craft beer (and luckily Copenhagen is the perfect city for it). And coffee. I love coffee.</p>
+
+<p>I grew up in Zaragoza (Spain), where I obtained my MSc in Telecommunication Engineering at the University of Zaragoza (2017) and worked as a Software Engineer for over 3 years.</p>
+
+
+
+
+<h4 style="color:SlateBlue;">Contact</h4>
+
+<p>I always keep an eye on my email <span style="color:SlateBlue;">lcp[at]di.ku.dk</span></p>
+
+</article>

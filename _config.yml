@@ -3,9 +3,9 @@ permalink:           pretty
 
 # Setup
 title:               Laura Cabello
-tagline:             Notebook where I get my work squared away
+tagline:             PhD Fellow
 paginate:            1
-baseurl:             "/blog/about/"
+baseurl:             "/blog/"
 
 # Markdown
 markdown: kramdown
@@ -29,12 +29,11 @@ github:
 
 # This is the list of pages to include in the header of the website.
 pages_list:
-  About: "/blog/about/"
-  Resume: "/blog/resume/"
+  CV: "/blog/resume/"
   Publications: "/blog/publications/"
   Archive: "/blog/archive/"
 
 # Gems
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-gist

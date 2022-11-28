@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Resume
+title: Curriculum Vitae
 ---
-[Here]({{ site.baseurl }}/public/assets/lcpiqueras-en.pdf) you can find the last* version of my Curriculum Vitae.
-
-*I promise I try to keep it up-to-date.
+<p><a href="{{ site.baseurl }}public/assets/lcpiqueras-en.pdf">Here</a> you can find the last<span style="color:SlateBlue;">*</span> version of my Curriculum Vitae.</p>
+<br>
+<p><span style="color:SlateBlue;">*</span>I promise I try to keep it up-to-date.</p>
