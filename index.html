@@ -1,31 +1,144 @@
 ---
-layout: default
+layout: aboutme
 ---
 
+<body>
+  <nav class="navbar navbar-inverse" style="margin-bottom:0px">
+    <div class="container-fluid" style="padding-left:0px">
+    <div class="navbar-header">
+    <a class="navbar-brand" href="#"></a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar" style="padding-left:30px">
+      <ul class="nav navbar-nav">
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#stays">Stays/Internship</a></li>
+        <!--<li><a href="#resume">Resume</a></li>-->
+        <li><a href="{{ site.baseurl }}public/assets/lcpiqueras-en.pdf">Resume</a></li>
+        <!--<li><a href="#archive">Archive</a></li>-->
+      </ul>
+    </div>
+    </div>
+  </nav>
 
-<article class="page">
-<link rel="stylesheet" href="style.css">
+    <div class="jumbotron">
+        <div class ="row banner">
+        <div class="col-sm-3 photo" style="text-align:center; margin:auto;">
+        <img src="public/photos/abme.jpg" class="rounded responsive">
+        </div>
+        <div class="col-sm-7 shortbio" style="text-align:center; margin:auto;">
+        <h1>Laura Cabello
+            <a href="https://github.com/lautel" target="_blank"><i class="fa fa-github-alt"></i> </a>
+            <a href="https://scholar.google.com/citations?user=D4rwYOcAAAAJ" target="_blank"><i class="ai ai-google-scholar-square ai-1x"></i></a>
+            <a href="https://www.linkedin.com/in/laura-cabello-piqueras-167352104" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </h1>
+          <p class="lead" align="justify">Hey! I am Laura Cabello, a second-year PhD student at <a href="https://coastalcph.github.io/">CoAStaL</a>, the Natural Language Processing group led by <a href="https://anderssoegaard.github.io/">Anders Søgaard</a> at the University of Copenhagen.</p>
+          <p align="left">I am particularly interested in the social implications of large scale language models. NLP is rapidly expanding across industries and it is our responsibility to design safe and equitable models to deploy them in practice. Currently, I am digging deeper into analyzing social bias and fairness in language models.</p>
+          <p align="left">Whenever I am not in research mode, you can find me bouldering, trying out innovative recipes (shout out to <a href="https://gipsychef.es/category/bestial/">Gipsy Chef</a>) or enjoying a good craft beer (and luckily Copenhagen is the perfect city for it). And coffee. I love coffee.</p>
+          <p align="left">I grew up in Zaragoza (Spain), where I obtained my MSc in Telecommunication Engineering at the University of Zaragoza (2017) and worked as a Software Engineer for over 3 years.</p>
+          <p align="left">I always keep an eye on my e-mail: <a style="color:#8F8FDB;">lcp [at] di [dot] ku [dot] dk</a></p>
+        </div>
+       </div>
+    </div>
 
-  <h1 class="page-title">About me</h1>
+  <!-- Begin page content -->
+ <main role="main" class="container">
+      <div class="row">
+      	<div class="col-sm-12 blog-main">
+
+       <hr>
+        <div id="publications" class="info-section" style="padding-bottom:25px">
+        <h2>Selected Publications</h2>
+        <ul>
+        <li>
+        <p>
+        <strong>Are Pretrained Multilingual Models Equally Fair across Languages?</strong>
+        </p>
+        <p><u>Laura Cabello Piqueras</u>, Anders Søgaard</p>
+        <p>COLING 2022</p>
+        <p>
+            <a href="https://aclanthology.org/2022.coling-1.318/" target="_blank" type="button" class="btn btn-default btn-sm"><i class="fa fa-book"></i> Article</a>
+            <a href="https://github.com/coastalcph/mozart" target="_blank" type="button" class="btn btn-default btn-sm"><i class="ai ai-open-materials"></i> Data</a>
+            <a href="" target="_blank" type="button" class="btn btn-default btn-sm"> Poster</a>
+        </p>
+        </li>
+        <li>
+        <p>
+        <strong>Date Recognition in Historical Parish Records</strong>
+        </p>
+        <p><u>Laura Cabello Piqueras</u>*, Constanza Fierro*, Jonas F. Lotz*, Phillip Rust*, Joen Rommedahl, Jeppe Klok Due, Christian Igel, Desmond Elliott, Carsten B. Pedersen, Israfel Salazar, Anders Søgaard</p>
+        <p>The 18th International Conference on Frontiers of Handwriting Recognition</p>
+        <p>
+            <a href="https://link.springer.com/chapter/10.1007/978-3-031-21648-0_4" target="_blank" type="button" class="btn btn-default btn-sm"><i class="fa fa-book"></i> Article</a>
+            <a href="https://github.com/coastalcph/mgr-birthdates" target="_blank" type="button" class="btn btn-default btn-sm"><i class="ai ai-open-materials"></i> Data</a>
+        </p>
+        </li>
+            <li>
+        <p>
+        <strong>Challenges and Strategies in Cross-Cultural NLP</strong>
+        </p>
+        <p>Daniel Hershcovich, Stella Frank, Heather Lent, Miryam de Lhoneux, Mostafa Abdou, Stephanie Brandl, Emanuele Bugliarello, <u>Laura Cabello Piqueras</u>, Ilias Chalkidis, Ruixiang Cui, Constanza Fierro, Katerina Margatina, Phillip Rust, Anders Søgaard</p>
+        <p>ACL 2022</p>
+        <p>
+            <a href="https://aclanthology.org/2022.acl-long.482/" target="_blank" type="button" class="btn btn-default btn-sm"><i class="fa fa-book"></i> Article</a>
+        </p>
+        </li>
+            <li>
+        <p>
+        <strong>Text-to-Pictogram Summarization for Augmentative and Alternative Communication</strong>
+        </p>
+        <p><u>Laura Cabello</u>, Eduardo Lleida, Javier Sim´on, Antonio Miguel, Alfonso Ortega</p>
+        <p>Procesamiento del Lenguaje Natural 61, pp.15-22, 2018</p>
+        <p>
+            <a href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/viewFile/2018-61-1/3374" target="_blank" type="button" class="btn btn-default btn-sm"><i class="fa fa-book"></i> Article</a>
+        </p>
+        </li>
+        </ul>
+        </div>
+
+        <hr>
+            <div id="stays" class="info-section" style="padding-bottom:25px">
+        <h2>Stays/Internship</h2>
+
+        <ul>
+        <li>Stay @ Tampere Univerity (TUT), <a href="https://webpages.tuni.fi/arg/">Audio Group</a>. 2016</li>
+        <li>Intern @ <a href="https://medialinks.com/">Media Global Links</a> (Japan). 2015 </li>
+        <li>CIBER-BBN Research Grant. Stay @ <a href="https://i3a.unizar.es/es/grupos-de-investigacion/bsicos">BSICoS</a> (Spain). 2014 </li>
+        </ul>
+
+         <hr>
+        <!--<div id="archive" class="info-section" style="padding-bottom:25px">-->
+        <!--<h2>[Old] posts</h2>-->
+        <!--{% for post in site.categories.Unizar %}-->
+          <!--* {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ site.baseurl }}{{ post.url }})-->
+        <!--{% endfor %}-->
+        <!--</div>-->
 
 
-  <img src="{{ site.baseurl }}/public/photos/abme.jpg" alt="Avatar">
-
-
-
-  <p>Hey! I am Laura Cabello, a second-year PhD student at <a href="https://coastalcph.github.io/">CoAStaL</a>, the Natural Language Processing group led by <a href="https://anderssoegaard.github.io/">Anders Søgaard</a> at the University of Copenhagen.</p>
-
-<p>I am particularly interested in the social implications of large scale language models. NLP is rapidly expanding across industries and it is our responsibility to design safe and equitable models to deploy them in practice. Currently, I am digging deeper into analyzing social bias and fairness in language models.</p>
-
-<p>Whenever I am not in research mode, you can find me bouldering, trying out innovative recipes (shout out to <a href="https://gipsychef.es/category/bestial/">Gipsy Chef</a>) or enjoying a good craft beer (and luckily Copenhagen is the perfect city for it). And coffee. I love coffee.</p>
-
-<p>I grew up in Zaragoza (Spain), where I obtained my MSc in Telecommunication Engineering at the University of Zaragoza (2017) and worked as a Software Engineer for over 3 years.</p>
+        </div>
+      </div>
+ </main>
 
 
 
 
-<h4 style="color:SlateBlue;">Contact</h4>
 
-<p>I always keep an eye on my email <span style="color:SlateBlue;">lcp[at]di.ku.dk</span></p>
 
-</article>
+    <footer class="footer" style="height:10px">
+      <div class="container">
+        <span class="text-muted"></span>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>

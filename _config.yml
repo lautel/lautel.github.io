@@ -5,7 +5,7 @@ permalink:           pretty
 title:               Laura Cabello
 tagline:             PhD Fellow
 paginate:            1
-baseurl:             "/blog/"
+baseurl:             ""
 
 # Markdown
 markdown: kramdown
@@ -29,9 +29,9 @@ github:
 
 # This is the list of pages to include in the header of the website.
 pages_list:
-  CV: "/blog/resume/"
-  Publications: "/blog/publications/"
-  Archive: "/blog/archive/"
+  CV: "/resume/"
+  Publications: "/publications/"
+  Archive: "/archive/"
 
 # Gems
 plugins:
